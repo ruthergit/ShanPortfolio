@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan | Porfolio</title>
+    <style>
+        *,*::before,*::after {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color: #0C0C0C;
+        -ms-overflow-style: none;
+        color: white;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    #about::-webkit-scrollbar{
+        display: none;
+    }
+    html{
+        scrollbar-width: none;
+    }
+    :root {
+    --light-color:#D9D9D9;
+    --dark-color:#FFC000;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+  
+    </style>
+    <link rel="stylesheet" href="frontpage.css">
+    <link rel="stylesheet" href="frontpage-mediaquery.css">
+    <link rel="stylesheet" href="secondpage.css">
+    <link rel="stylesheet" href="SECOND-PAGE-MEDIAQ/GRID.css">
+    <link rel="stylesheet" href="SECOND-PAGE-MEDIAQ/ITEM-1.css">
+    <link rel="stylesheet" href="SECOND-PAGE-MEDIAQ/ITEM-2.css">
+    <link rel="stylesheet" href="SECOND-PAGE-MEDIAQ/ITEM-3&4.css">
+    <link rel="stylesheet" href="SECOND-PAGE-MEDIAQ/ITEM-5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-one">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="next.html">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="next.html">
+                        SHOP 
+                    </a>
+                </li>
+                <li>
+                    <a href="next.html">
+                        GALLERY
+                    </a>
+                </li>
+                <li>
+                    <a href="next.html">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <button class="btn-fb"><img src="img/Facebook.png" alt=""></button>
+                <button class="btn-ig"><img src="img/Instagram.png" alt=""></button>
+                <button class="btn-pp"><img src="img/PayPal.png" alt=""></button>
+                <button class="btn-yt"><img src="img/YouTube.png" alt=""></button>
+            </div>
+        </div>
+    <nav> 
+        <span>SHAN ORCASITAS</span>
+        <button id="Menu-Btn"><img src="img/Menu.png" alt=""></button>
+    </nav>
+        <div class="home-container">
+            <div class="closebtnDiv">
+                <button onclick="closefunc()">
+                    <img src="img/closebtn.png" alt="">
+                </button>
+            </div>
+            <video class="video-background"autoplay muted loop>
+                <source src="Video/0410.mp4"
+                type="video/mp4">
+            </video>
+            
+            <div id="heading-wrapper">
+                <div class="heading-container">
+                    <p>Aims to preserve all the memories 
+                        captured in every frame</p>
+                <div class="button-container">
+                    <button id="scroll-down-btn">Scroll Down</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page-two">
+        <div id="container">
+            <div id="item1">
+               <div class="heading-part">
+                    <h2>I'm Shan Orcasitas</h2>
+                    <p>
+                        Explore my short films, each telling
+                         a unique story through careful 
+                         storytelling and visuals
+                    </p>
+               </div>
+               <div class="thumbnail-part">
+                    <img src="img/thumbnail3.png" alt="">
+               </div>
+            </div>
+
+            <div id="item2">
+                <div class="video-container">
+                    <div class="video-bg">
+                        <video id="video-bg" autoplay muted loop>
+                            <source src="PortraitVideo/Video 1.mp4"
+                            type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video id="video-item" autoplay muted loop>
+                            <source src="PortraitVideo/Video 1.mp4"
+                            type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="radio-container">
+                    <img class="rd-btn-1" src="img/RadioBtn.png" alt="">
+                    <img class="rd-btn-2" src="img/RadioBtn.png" alt="">
+                    <img class="rd-btn-3" src="img/RadioBtn.png" alt="">
+                    <img class="rd-btn-4" src="img/RadioBtn.png" alt="">
+                </div>
+            </div>
+            <div id="item3">
+                <div class="relative">
+                    <div class="profile">
+                        <div class="img-container">
+                            <img src="img/profile.jpg" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h2>Photography</h2>
+                            <p>Captured Moments</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <div>
+                        <img src="img/426392797_409644678265029_3169004219812809208_n.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/444699593_343349061756819_3066880670804799513_n.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/426502046_372461315499384_5290564749198722317_n.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="item4">
+                <div class="relative">
+                    <div class="profile">
+                        <div class="img-container">
+                            <img class="shn-crt" src="img/creative-profile.jpg" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h2>Shan Creatives</h2>
+                            <p>Graphic Design</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <div>
+                        <img src="img/always.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/bmw.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/1970.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="item5">
+                <div class="text-h2-p">
+                    <h2>Endless Creativity</h2>
+                    <p>Sticker Pack Version 1</p>
+                </div>
+                <div class="poster">
+                    <img src="img/shan-poster.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="script-for-videos.js"></script>
+    <script src="script-for-images.js"></script>
+</body>
+</html>

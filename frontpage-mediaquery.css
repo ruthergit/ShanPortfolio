@@ -1,0 +1,124 @@
+
+@media (max-width: 1615px) {
+    nav{
+        gap: 38rem;
+    }
+    #heading-wrapper{
+        width: 100vw;
+    }
+    .heading-container{
+        height: 16vh;
+        width: 46vw;
+        
+    }
+    .heading-container > p{
+        font-size: 2em;
+        font-weight: 600;
+        margin: 4px;
+    }
+    .button-container > button{
+        font-size: 0.870em;
+        padding: 8px 18px;
+        
+    }
+    
+}
+@media (max-width: 1250px){
+    nav{
+        gap: 50rem;
+    }
+    button>img{
+        width: 28px;
+    }
+    .heading-container{
+        height: 18vh;
+        width: 60vw;
+        margin-bottom: 60px;
+    }
+    .heading-container > p{
+        font-size: 2em;
+        font-weight: 600;
+        margin: 4px;
+    }
+    .button-container > button{
+        font-size: 0.870em;
+        padding: 8px 18px;
+        
+    }
+}
+
+@media (max-width: 1110px){
+    nav{
+        gap: 33rem;
+    }
+    .heading-container{
+        height: 18vh;
+        width: 60vw;
+        margin-bottom: 60px;
+    }
+    .heading-container > p{
+        font-size: 2em;
+        font-weight: 600;
+        margin: 4px;
+    }
+    .button-container > button{
+        font-size: 0.810em;
+        padding: 6px 16px;
+        
+    }
+}
+@media (max-width: 775px){
+    nav{
+        gap: 26rem;
+    }
+    .heading-container{
+        height: 18vh;
+        width: 60vw;
+        margin-bottom: 60px;
+    }
+    .heading-container > p{
+        font-size: 2em;
+        font-weight: 600;
+        margin: 4px;
+    }
+    .button-container > button{
+        font-size: 0.808em;
+    }
+}
+@media (max-width: 614px){
+    nav{
+        gap: 20rem;
+    }
+    .heading-container{
+        height: 18vh;
+        width: 82vw;
+        margin-bottom: 40px;
+    }
+    .heading-container > p{
+        font-size: 1.8em;
+        font-weight: 600;
+        margin: 4px;
+    }
+    .button-container > button{
+        padding: 6px 14px;
+    }
+}
+@media (max-width: 488px){
+    nav{
+        gap: 10rem;
+    }
+    .heading-container{
+        height: 18vh;
+        width: 90vw;
+        margin-bottom: 60px;
+    }
+    .heading-container > p{
+        font-size: 1.6em;
+        font-weight: 500;
+        margin: 4px;
+        letter-spacing: 1px;
+    }
+    .button-container > button{
+        display: none;
+    }
+}

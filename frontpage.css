@@ -1,0 +1,248 @@
+#page-one{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    transition: width 0.5s ease;
+    /* border: 1px solid yellowgreen; */
+}
+nav{
+    height: 6.1vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size:1.625em;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;    
+    gap: 27em;
+    background-color: #0C0C0C;
+}
+nav > span,button{
+    padding-top: 0.1em;
+    transition: opacity 0.3s ease, visibility 0.1s ease;
+}
+span:hover{
+    color: #ffc10a; /* Change the background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+button{
+    background: none; 
+    border: none;
+    cursor: pointer;
+}
+button>img{
+    width: 28px;
+}
+
+.sidebar{
+    position: absolute;
+    width: 20rem;
+    height: 16rem;
+    top: 34%;
+    left: 100%;
+}
+button:nth-child(1) img {
+    width: 23px;
+}
+
+button:nth-child(2) img {
+    width: 20px;
+}
+
+button:nth-child(3) img {
+    width: 18px;
+}
+
+button:nth-child(4) img {
+    width: 22px;
+}
+@media (max-width: 1815px) {
+    .sidebar{
+        position: absolute;
+        width: 24rem;
+        height: 16rem;
+        top: 34%;
+        left: 98%;
+        visibility: hidden;
+        /* border: 1px solid rgb(51, 255, 10); */
+    }
+}
+@media (max-width: 1215px) {
+    .sidebar{
+        left: 96%;
+    }
+}
+
+@media (max-width: 915px) {
+    .sidebar{
+        left: 93%;
+    }
+}
+@media (max-width: 715px) {
+    .sidebar{
+        left: 89%;
+    }
+}
+@media (max-width: 515px) {
+    .sidebar{
+        left: 89%;
+    }
+}
+@media (max-width: 450px) {
+    .sidebar{
+        left: 81%;
+    }
+   
+}
+
+
+ul{
+    height: 80%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: left;
+    display: grid;
+    padding: 40px 62px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+li{
+    list-style-type: none;
+    padding: 2px; 
+}
+.sidebar > div{
+    /* border: 2px solid yellow; */
+    height: 20%;
+    display: flex;
+    padding-left:60px;
+    gap: 6px;
+}
+
+
+
+
+.closebtnDiv{
+    position: absolute;
+    top: 45%;
+    left: 96%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.1s ease;
+}
+@media (max-width: 1815px) {
+    .closebtnDiv{
+        left: 95%;
+    }
+}
+@media (max-width: 1615px) {
+   
+    .closebtnDiv{
+        left: 93%;
+    }
+}
+@media (max-width: 915px) {
+    ul{
+        height: 80%;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: left;
+        display: grid;
+        padding: 44px 62px;
+       
+    }
+    .sidebar > div{
+        padding-left:57px;
+        gap: 2px; 
+        height: 10%;
+    }
+    .closebtnDiv{
+        left: 90%;
+    }
+}@media (max-width: 515px){
+    .closebtnDiv{
+        left: 85%;
+    }
+    .sidebar > div{
+        display: flex;
+        flex-direction: column;
+        padding-left:60px;
+        height: 50%;
+        width: 20%;
+        /* border: 1px solid yellow; */
+    }
+}
+.closebtnDiv.show {
+    opacity: 1;
+    visibility: visible;
+}
+.closebtnDiv > button{
+   border-radius: 60%;
+   width: 3rem;
+   height: 3rem;
+   opacity: 0.8;
+}
+.closebtnDiv > button:hover{
+    opacity: 1;
+}
+.closebtnDiv > button > img{
+    width: 42px;
+    
+}
+
+
+
+
+
+
+.home-container{
+    position: relative;
+    overflow: hidden;
+    min-height: 87vh;
+    align-items: center;
+}
+.video-background{
+    object-fit: cover;
+    z-index:-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+#heading-wrapper{
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, visibility 0.1s ease;
+}
+.heading-container{
+    height: 22vh;
+    width: 32vw;
+}
+.heading-container > p{
+    font-family: "Inter", sans-serif;
+    font-size: 2.2em;
+    font-weight: 600;
+    text-align: center;
+    margin: 14px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgb(0, 194, 219); */
+}
+.button-container > button{
+    background-color: transparent;
+    border: 2.3px solid #ffffff;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875em;
+    padding: 10px 20px;
+}
+.button-container > button:hover{
+    color: var(--dark-color); /* Change the background color on hover */
+    cursor: pointer;
+    border: 2.3px solid var(--dark-color);;
+}

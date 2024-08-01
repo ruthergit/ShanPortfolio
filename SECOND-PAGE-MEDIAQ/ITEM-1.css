@@ -1,0 +1,124 @@
+
+@media (max-width: 1615px) {
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 1em 3em;
+        display: flex;
+    }
+    .heading-part{
+        display: grid;
+        place-content: center;
+        padding-right: 30px;
+    }
+    .thumbnail-part{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        object-fit: cover;
+    }
+    .thumbnail-part > img{
+        width: 100%;
+        height: auto;
+        border: 0.8px solid rgb(255,255,255, 0.5);
+    }
+}
+@media (max-width: 1250px){
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 1em 3em;
+        display: flex;
+    }
+    .heading-part{
+        display: grid;
+        place-content: center;
+        padding-right: 20px;
+    }
+    .thumbnail-part{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        object-fit: cover;
+    }
+    .thumbnail-part > img{
+        width: 100%;
+        height: auto;
+        border: 0.8px solid rgb(255,255,255, 0.5);
+    }
+}
+@media (max-width: 1110px){
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 2em 1em;
+        display: flex;
+    }
+    .heading-part{
+        display: grid;
+        place-content: center;
+        padding-right: 4px;
+    }
+    .heading-part > p{
+        font-size: 14px;
+    }
+    .thumbnail-part{
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
+    .thumbnail-part > img{
+        width: 100%;
+        height: auto;
+        border: 0.8px solid rgb(255,255,255, 0.5);
+    }
+}
+@media (max-width: 775px){
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 2em 3.2em;
+        display: flex;
+        
+    }
+    .heading-part{
+        display: grid;
+        place-content: center;
+        padding-right: 8px;
+        border: none;
+        text-align: center;
+          
+    }
+    .thumbnail-part{
+        display: none;
+    }
+    .thumbnail-part > img{
+        width: 1%;
+        height: auto;
+        
+    }
+}
+@media (max-width: 614px){
+    
+}
+@media (max-width: 488px){
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 2em 1em;
+        display: flex;
+        
+    }
+    .heading-part > h2 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .heading-part > p {
+        font-size: 14px;
+    }
+}
