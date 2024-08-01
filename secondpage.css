@@ -101,6 +101,8 @@
 .radio-container > img{
     padding: 3px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* For Safari and Chrome */
+    outline: none; /* For other browsers */
 }
 
 
