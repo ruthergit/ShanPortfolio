@@ -70,6 +70,7 @@
 @media (max-width: 775px){
     nav{
         gap: 26rem;
+        
     }
     .heading-container{
         height: 18vh;
@@ -106,6 +107,7 @@
 @media (max-width: 488px){
     nav{
         gap: 10rem;
+        
     }
     .heading-container{
         height: 18vh;

@@ -57,6 +57,7 @@ button:nth-child(4) img {
 }
 @media (max-width: 1815px) {
     .sidebar{
+        
         position: absolute;
         width: 24rem;
         height: 16rem;
@@ -160,16 +161,34 @@ li{
     }
 }@media (max-width: 515px){
     .closebtnDiv{
-        left: 85%;
+        left: 83%;
     }
     .sidebar > div{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         flex-direction: column;
-        padding-left:60px;
-        height: 50%;
-        width: 20%;
-        /* border: 1px solid yellow; */
+        padding-left:56px;
+        height: 30%;
+        width: 33%;
+
     }
+    button:nth-child(1) img {
+        width: 24px;
+    }
+    
+    button:nth-child(2) img {
+        width: 21px;
+    }
+    
+    button:nth-child(3) img {
+        width: 19px;
+    }
+    
+    button:nth-child(4) img {
+        width: 23px;
+    }
+    
 }
 .closebtnDiv.show {
     opacity: 1;

@@ -122,3 +122,19 @@
         font-size: 14px;
     }
 }
+@media (max-width: 391px){
+    #item1{
+        grid-row: 1/5;
+        grid-column: 1/7;
+        padding: 3em 1.2em;
+        display: flex;
+        
+    }
+    .heading-part > h2 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .heading-part > p {
+        font-size: 14px;
+    }
+}

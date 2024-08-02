@@ -208,32 +208,20 @@
     <script src="script-for-videos.js"></script>
     <script src="script-for-images.js"></script>
     <script>
-        document.addEventListener('touchstart', handleTouchStart, false);
-        document.addEventListener('touchmove', handleTouchMove, false);
+        let startX;
 
-        let xStart = null;
+        document.body.addEventListener('touchstart', function(event) {
+            startX = event.touches[0].clientX;
+        });
 
-        function handleTouchStart(event) {
-            const firstTouch = event.touches[0];
-            xStart = firstTouch.clientX;
-        }
+        document.body.addEventListener('touchmove', function(event) {
+            const touch = event.touches[0];
+            const endX = touch.clientX;
 
-        function handleTouchMove(event) {
-            if (!xStart) {
-                return;
-            }
-
-            const xMove = event.touches[0].clientX;
-            const xDiff = xMove - xStart;
-
-            // If the swipe is to the right, prevent default action
-            if (xDiff > 0) {
+            if (startX - endX > 10) { // swipe distance threshold
                 event.preventDefault();
             }
-
-            // Reset xStart after handling the touch move
-            xStart = null;
-        }
+        });
     </script>
 </body>
 </html>
