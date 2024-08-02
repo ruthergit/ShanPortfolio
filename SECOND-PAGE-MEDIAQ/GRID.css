@@ -1,7 +1,7 @@
 @media (max-width: 1815px) {
     #page-two{
         margin-top:3.7rem;
-        height: 100svh;
+        height: 100dvh;
         display: grid;
         place-content: center;
         position: relative;
