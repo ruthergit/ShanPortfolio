@@ -15,11 +15,11 @@
             background-color: #0C0C0C;
             -ms-overflow-style: none;
             color: white;
-            overflow-x: hidden; /* Prevent horizontal scrolling */
+            overflow-x: hidden; 
         }
         html {
             scrollbar-width: none;
-            overflow-x: hidden; /* Prevent horizontal scrolling */
+            overflow-x: hidden; 
         }
         body::-webkit-scrollbar, #about::-webkit-scrollbar {
             display: none;
@@ -207,21 +207,5 @@
     <script src="script.js"></script>
     <script src="script-for-videos.js"></script>
     <script src="script-for-images.js"></script>
-    <script>
-        let startX;
-
-        document.body.addEventListener('touchstart', function(event) {
-            startX = event.touches[0].clientX;
-        });
-
-        document.body.addEventListener('touchmove', function(event) {
-            const touch = event.touches[0];
-            const endX = touch.clientX;
-
-            if (startX - endX > 10) { // swipe distance threshold
-                event.preventDefault();
-            }
-        });
-    </script>
 </body>
 </html>

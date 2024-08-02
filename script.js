@@ -27,14 +27,14 @@ document.getElementById('Menu-Btn').addEventListener('click', () => {
         document.getElementById('Menu-Btn').style.display = 'none';
             const pageOne = document.getElementById('page-one');     
             pageOne.style.width = '78%';
-    document.querySelector(".sidebar").style.visibility = 'visible';
+    document.querySelector(".sidebar").style.display = 'block';
           
 
         
 });
 
 const closefunc = (() => {
-    document.querySelector(".sidebar").style.visibility = 'hidden';
+    document.querySelector(".sidebar").style.display = 'none';
     document.body.style.overflow = 'auto';
     document.getElementById('page-two').style.visibility = 'visible';
     setTimeout(() => {
@@ -81,7 +81,4 @@ document.querySelector(".btn-pp").addEventListener("click", function() {
 document.querySelector(".btn-yt").addEventListener("click", function() {
     window.open("https://www.youtube.com/@_shanorcasitas", "_blank");
 });
-
-
-
 
