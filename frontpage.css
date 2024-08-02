@@ -1,5 +1,5 @@
 #page-one{
-    height: 100vh;
+    height: 100svh;
     width: 100%;
     position:relative;
     transition: width 0.5s ease;
@@ -90,7 +90,7 @@ button:nth-child(4) img {
 }
 @media (max-width: 450px) {
     .sidebar{
-        left: 81%;
+        left: 83%;
     }
    
 }
@@ -159,7 +159,8 @@ li{
     .closebtnDiv{
         left: 90%;
     }
-}@media (max-width: 515px){
+}
+@media (max-width: 515px){
     .closebtnDiv{
         left: 83%;
     }
@@ -169,6 +170,37 @@ li{
         grid-template-rows: 1fr 1fr;
         flex-direction: column;
         padding-left:56px;
+        height: 30%;
+        width: 33%;
+
+    }
+    button:nth-child(1) img {
+        width: 24px;
+    }
+    
+    button:nth-child(2) img {
+        width: 21px;
+    }
+    
+    button:nth-child(3) img {
+        width: 19px;
+    }
+    
+    button:nth-child(4) img {
+        width: 23px;
+    }
+    
+}
+@media (max-width: 440px){
+    .closebtnDiv{
+        left: 83%;
+    }
+    .sidebar > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        flex-direction: column;
+        padding-left:60px;
         height: 30%;
         width: 33%;
 
