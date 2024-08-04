@@ -336,7 +336,7 @@
        
     }
     .content > div{
-        width: 33%;
+        width: 36%;
         display: flex;
         align-items: center;
         margin-left: 4px;
@@ -344,7 +344,7 @@
         transition: filter 0.3s ease;
     }
     .content > div > img{
-        width:110px;
+        width:116px;
     }
 }
 @media (max-width: 376px){
@@ -399,8 +399,7 @@
         transition: filter 0.3s ease;
     }
     .content > div > img{
-        width:100px;
+        width:90px;
     }
 }
-
 

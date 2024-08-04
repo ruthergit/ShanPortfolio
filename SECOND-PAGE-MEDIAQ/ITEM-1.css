@@ -126,7 +126,7 @@
     #item1{
         grid-row: 1/5;
         grid-column: 1/7;
-        padding: 3em 1.2em;
+        padding: 3  em 1.2em;
         display: flex;
         
     }
