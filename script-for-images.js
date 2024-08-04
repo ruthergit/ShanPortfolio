@@ -4,17 +4,9 @@ const mediaQueryList = window.matchMedia(mediaQueryString);
 const item3 = document.getElementById('item3');
 const item4 = document.getElementById('item4');
 
-// function handleMediaQueryChangeItems(event) {
-//     if (event.matches) {
-//         console.log('Media query matched!');
-//         item3.style.display = 'none';
-//         item4.style.display = 'none';
-//     } else {
-//         console.log('Media query did not match');
-//         item3.style.display = '';
-//         item4.style.display = '';
-//     }
-// }
+function handleMediaQueryChangeItems(event) {
+    
+}
 
 handleMediaQueryChangeItems(mediaQueryList);
 mediaQueryList.addListener(handleMediaQueryChangeItems);
