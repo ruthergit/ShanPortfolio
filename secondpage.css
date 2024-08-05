@@ -105,6 +105,8 @@
     width: 100%;
     height: 100%;
     display: flex; justify-content: space-between;
+    -webkit-tap-highlight-color: transparent; /* For Safari and Chrome */
+    outline: none; /* For other browsers */
 }
 .prev-next > button{
     border: 1px solid rgb(47, 255, 19,0);width: 37%;
