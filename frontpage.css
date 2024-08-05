@@ -31,8 +31,13 @@ button{
 }
 button>img{
     width: 28px;
+    
 }
 
+button {
+    -webkit-tap-highlight-color: transparent; /* For Safari and Chrome */
+    outline: none; /* For other browsers */
+}
 .sidebar{
     position: absolute;
     width: 20rem;
