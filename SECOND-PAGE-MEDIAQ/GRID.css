@@ -145,9 +145,7 @@
     #item5{
         height: 20%;
     }
-    .video-bg{
-        opacity: 0;
-    }
+    
 }
 @media (max-width: 614px){
     #page-two{
@@ -182,9 +180,7 @@
     #item5{
         height: 20%;
     }
-    .video-bg{
-        opacity: 0;
-    }
+    
 }
 @media (max-width: 488px){
     #page-two{
@@ -219,9 +215,7 @@
     #item5{
         height: 20%;
     }
-    .video-bg{
-        opacity: 0;
-    }
+    
 }
 @media (max-width: 416px){
     #page-two{
@@ -256,9 +250,7 @@
     #item5{
         height: 20%;
     }
-    .video-bg{
-        opacity: 0;
-    }
+    
 }
 
 

@@ -84,3 +84,32 @@
             btn2_function();
         }
     });
+
+    const nextbtn = document.querySelector(".next");
+
+    nextbtn.onclick = () => {
+        
+        if (btn2.style.opacity === '1') {
+            btn3_function();
+        } else if (btn3.style.opacity === '1') {
+            btn4_function();
+        } else if (btn4.style.opacity === '1') {
+            btn1_function();
+        } else {
+            btn2_function();
+        }
+    }
+    const prevbtn = document.querySelector(".prev");
+
+    prevbtn.onclick = () => {
+        
+        if (btn2.style.opacity === '1') {
+            btn1_function();
+        } else if (btn3.style.opacity === '1') {
+            btn2_function();
+        } else if (btn4.style.opacity === '1') {
+            btn3_function();
+        } else {
+            btn4_function();
+        }
+    }
