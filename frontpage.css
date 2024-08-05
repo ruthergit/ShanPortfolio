@@ -34,7 +34,7 @@ button>img{
     
 }
 
-button {
+button,li {
     -webkit-tap-highlight-color: transparent; /* For Safari and Chrome */
     outline: none; /* For other browsers */
 }
