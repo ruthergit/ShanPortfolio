@@ -51,7 +51,7 @@
     #item3,#item4{
         grid-row: 5/10;
         grid-column: span 3;
-        padding: 2em 3em;
+        padding: 1.2em 1em;
     }
     .relative{
         height: 16%;
@@ -96,7 +96,7 @@
     #item3,#item4{
         grid-row: 5/10;
         grid-column: span 3;
-        padding: 2em 1em;
+        padding: 1em 1em;
     }
     .relative{
         height: 16%;

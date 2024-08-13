@@ -53,25 +53,6 @@
         videoItem.load();
     };
 
-    btn1.onclick = () => {
-        if (btn1.style.opacity === '1') return;
-        btn1_function();
-    };
-
-    btn2.onclick = () => {
-        if (btn2.style.opacity === '1') return;
-        btn2_function();
-    };
-
-    btn3.onclick = () => {
-        if (btn3.style.opacity === '1') return;
-        btn3_function();     
-    };
-
-    btn4.onclick = () => {
-        if (btn4.style.opacity === '1') return;
-        btn4_function();  
-    };
 
     videoItem.addEventListener('ended', () => {
         if (btn2.style.opacity === '1') {

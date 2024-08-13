@@ -1,0 +1,40 @@
+#page-one{
+    height: 100dvh;
+    width: 100%;
+    position:relative;
+    transition: width 0.5s ease;
+}
+nav{
+    height: 6.1vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size:1.625em;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;    
+    gap: 27em;
+    background-color: #0C0C0C;
+}
+nav > span,button{
+    padding-top: 0.1em;
+    transition: opacity 0.3s ease, visibility 0.1s ease;
+}
+span:hover{
+    color: #ffc10a; /* Change the background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+button,li {
+    -webkit-tap-highlight-color: transparent; /* For Safari and Chrome */
+    outline: none; /* For other browsers */
+}
+.sidebar{
+    position: absolute;
+    width: 20rem;
+    height: 16rem;
+    top: 34%;
+    left: 100%;
+    display: none;
+}

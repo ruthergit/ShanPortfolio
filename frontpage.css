@@ -3,7 +3,6 @@
     width: 100%;
     position:relative;
     transition: width 0.5s ease;
-    /* border: 1px solid yellowgreen; */
 }
 nav{
     height: 6.1vh;
@@ -31,7 +30,6 @@ button{
 }
 button>img{
     width: 28px;
-    
 }
 
 button,li {
